@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    min-height: 2000px;
+}
+
+h1{
+    text-shadow: 1px 1px 1px grey;
+}
+
+.img-thumbnail{
+    background-color: #273036;
+    margin-top: 30px;
+}
+
+
+
+.jumbotron{
+    padding-top: 6rem;
+    position: relative;
+    background-color: #fff;
+}
+
+/* About me */
+.about-content{
+    background-color:#273036 ;
+    color: #fff;
+}
+
+.about-content p{
+    font-size: 18px;
+}
+/* Akhir Aboyt me */
+
+
+/* My Skill */
+.my-skill{
+    padding-top: 6rem;
+}
+
+.skills li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.bar{
+    background-color: grey;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 1px #273036;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 30%;
+    }
+}
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 40%;
+    }
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background-color: #fff;
+}
+
+
+
+
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+
+.javascript{
+    width: 60%;
+    animation: javascript 2s;
+}
+
+.jquery{
+    width: 30%;
+    animation: jquery 2s;
+}
+
+.php{
+    width: 40%;
+    animation: php 2s;
+}
+
+
+/* Hobies */
+.hobies{
+    background-color: #273036;
+    padding-top: 6rem;
+}
+
+.hobies h1{
+    color: #fff;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.hobies .card{
+    margin-bottom: 3rem;
+    box-shadow: 1px 1px 1px grey;
+}
+/* Akhir Hobies */
+
+
+/* Footer */
+.footer{
+    padding-top: 1rem;
+    background-color: #273036;
+    color: #fff;
+}
+/* Akhir Footer */
