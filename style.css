@@ -6,6 +6,7 @@
             height: 2000px;
             font-family: 'VT323', monospace;
             overflow-x: hidden;
+            width: 100%;
         }
 
         .nav-item a{
@@ -61,12 +62,12 @@
 			height: 400px;
 		}
 
-		@media (max-width: 767px) {
-			.stacked-cards li {
-				height: 300px;
-                width: 300px;
-			}
-		}
+		@media only screen and (max-width: 600px) {
+            .stacked-cards li {
+                height: 200px;
+                width: 80%;
+            }
+        }
 
 		.stacked-cards li {
 			background-color: #00bcd4;
