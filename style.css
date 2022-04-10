@@ -64,8 +64,8 @@
 
 		@media only screen and (max-width: 600px) {
             .stacked-cards li {
-                height: 200px;
-                width: 80%;
+                height: 250px;
+                width: 100%;
             }
         }
 
