@@ -9,6 +9,8 @@
             width: 100%;
         }
 
+       
+
         .nav-item a{
             list-style: none; 
             text-decoration: none;
@@ -67,6 +69,11 @@
                 height: 250px;
                 width: 100%;
             }
+
+            .bio{
+                text-align: center;
+            }
+
         }
 
 		.stacked-cards li {
