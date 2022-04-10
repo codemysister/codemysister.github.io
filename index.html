@@ -13,165 +13,44 @@
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <link href="stackedCards.css" rel="stylesheet" />
 <link href="highlight.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
 <script src="https://cdn.jsdelivr.net/highlight.js/9.9.0/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 
 
-    <style>
-        body{
-            background-color: #000000;
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            height: 2000px;
-
-        }
-
-        .nav-item a{
-            list-style: none; 
-            text-decoration: none;
-            color: rgb(187, 186, 186);
-        }
-
-        *, *:before, *:after {
-			box-sizing: border-box;
-		}
-	
-	
-
-		.stacked-cards h2 {
-			text-align: center;
-			position: relative;
-			top: -20px;
-		}
-
-		.intro {
-			max-width: 600px;
-			margin: 20px auto;
-			text-align: center;
-		}
-
-		.container-fuild {
-			max-width: 80%;
-			margin: 0 auto;
-		}
-
-		.container-fixed {
-			max-width: 1200px;
-			margin: 0 auto;
-		}
-
-
-		.stacked-cards {
-			padding-top: 40px;
-			padding-bottom: 15px;
-		}
-
-		.stacked-cards-fanOut {
-			padding-bottom: 40px;
-		}
-
-		.stacked-cards-fanOut li img {
-			max-height: 200px;
-		}
-
-		.stacked-cards li {
-			height: 400px;
-		}
-
-		@media (max-width: 767px) {
-			.stacked-cards li {
-				height: 180px;
-			}
-		}
-
-		.stacked-cards li {
-			background-color: #00bcd4;
-		}
-
-		.stacked-cards li:nth-child(n) {
-			background-color: #3599db;
-		}
-
-		.stacked-cards li:nth-child(2n) {
-			background-color: #e61b77;
-		}
-
-		.stacked-cards li:nth-child(3n) {
-			background-color: #00bcd4;
-		}
-
-		.stacked-cards li:nth-child(4n) {
-			background-color: #f4b251;
-		}
-
-		.stacked-cards li:nth-child(5n) {
-			background-color: #8e4497;
-		}
-
-		.source {
-			margin: 25px auto;
-		}
-
-		.header {
-			margin: 0px auto;
-			padding: 25px 5px;
-			background-color: #fff;
-		}
-		.header img {
-			display: block;
-			margin: 0 auto;
-			max-width: 300px;
-			height: auto;
-		}
-
-
-       
-    </style>
     <title>Hello, world!</title>
   </head>
   <body>
     
-    <div class="container">
+    
 
           <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000; color: white;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container">
+              <a class="navbar-brand" href="#">Deva</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav   mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#">Link</a>
                   </li>
+                 
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        
               </div>
             </div>
           </nav>
 
+
+          <div class="container">
           <div class="jumbotron mt-5">
             <div class="row">
                 <div class="col-md-6">
@@ -180,12 +59,152 @@
                    <a href=""><img src="button.png" alt=""></a> 
                 </div>
                 <div class="col-md-6">
-                  <video width="450" height="450" autoplay muted loop>
+                  <video autoplay muted loop>
                     <source src="New project.mp4" type="video/mp4">
                   </video>
                 </div> 
             </div>
             
+        </div>
+
+        <div class="container">
+           
+          <div class="col-md-8 mx-auto">
+            <ul class="skill-set__list">
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/ai.svg" alt="Illustrator"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Illustrator</h4>
+                      
+                </div>
+              
+                  </div>
+                  <div class="skill-set__bar p90 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/sketch.svg" alt="Sketch"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Sketch</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p80 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/abstract.svg" alt="Abstract"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Abstract</h4>
+                    
+                    </div>
+             
+                  </div>
+                  <div class="skill-set__bar p80 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/ps.svg" alt="Photoshop"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Photoshop</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p70 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/flinto.png" alt="Flinto for mac"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Flinto for mac</h4>
+                      
+                 </div>
+                   
+                  </div>
+                  <div class="skill-set__bar p50 js-scroll in"></div>
+                </div>
+              </li>
+            </ul>
+            <ul class="skill-set__list">
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/html.svg" alt="HTML/CSS"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">HTML/CSS</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p90 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/pug.svg" alt="Pug"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Pug</h4>
+                      
+                 </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p80 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/wp.svg" alt="Wordpress"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Wordpress</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p70 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/sass.svg" alt="Sass"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Sass</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p70 js-scroll in"></div>
+                </div>
+              </li>
+              <li class="skill-set__item">
+                <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/js.svg" alt="Javascript"></div>
+                <div class="skill-set__detail">
+                  <div class="skill-set__meta">
+                    <div class="skill-set__name">
+                      <h4 class="small-title small-title--skill">Javascript</h4>
+                      
+                </div>
+                    
+                  </div>
+                  <div class="skill-set__bar p60 js-scroll in"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="container-fixed stacked-cards stacked-cards-slide">
